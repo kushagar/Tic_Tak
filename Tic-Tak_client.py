@@ -4,7 +4,7 @@ from pydoc import cli
 import threading
 import socket
 import threading
-client=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+client=socket.socket(socket.AF_INET,socket.SOCK_STREAM) 
 client.connect(("127.0.0.1",5050))
 buffer=4096
 def recieve():
